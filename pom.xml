@@ -13,6 +13,7 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>builder</module>
     <module>core</module>
   </modules>
 
