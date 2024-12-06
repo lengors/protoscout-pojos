@@ -29,6 +29,7 @@
             fetch-depth: 0
             token: ${{ steps.app-token.outputs.token }}
             persist-credentials: false
+            submodules: true
         - name: Import GPG key
           id: import-gpg
           uses: crazy-max/ghaction-import-gpg@v6
@@ -70,6 +71,7 @@
             fetch-depth: 0
             persist-credentials: false
             ref: ${{ github.ref }}
+            submodules: true
         - name: Import GPG key
           uses: crazy-max/ghaction-import-gpg@v6
           with:
