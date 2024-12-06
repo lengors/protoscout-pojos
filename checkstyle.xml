@@ -96,6 +96,13 @@ https://www.oracle.com/java/technologies/javase/codeconventions-contents.html
   <!-- </module> -->
 
   <module name="TreeWalker">
+    <module name="Indentation">
+      <property name="arrayInitIndent" value="2"/>
+      <property name="basicOffset" value="2"/>
+      <property name="caseIndent" value="2"/>
+      <property name="lineWrappingIndentation" value="2"/>
+      <property name="throwsIndent" value="2"/>
+    </module>
 
     <!-- Checks for Javadoc comments.                     -->
     <!-- See https://checkstyle.org/checks/javadoc/index.html -->
