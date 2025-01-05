@@ -1,5 +1,5 @@
 /**
- * Package containing ProtoScout POJOs for scraper JEXL expressions serialization and deserialization.
+ * Package containing ProtoScout specification POJOs serialization and deserialization.
  *
  * @author lengors
  */
