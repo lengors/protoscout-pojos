@@ -1,0 +1,9 @@
+{
+  "requests": {
+    "url": {
+      "path": "/test"
+    },
+    "method": "get",
+    "parser": "html"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "flattens": {
+    "jexl": "selectAll('test')"
+  }
+}

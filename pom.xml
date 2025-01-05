@@ -19,7 +19,7 @@
 
   <properties>
     <!-- Version -->
-    <revision>1.0.0</revision>
+    <revision>1.0.1-beta.1</revision>
 
     <!-- Project general settings -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,7 +51,7 @@
       <artifactId>checker-qual</artifactId>
       <version>${maven.checkerframework.version}</version>
     </dependency>
-    </dependencies>
+  </dependencies>
 
   <build>
     <plugins>
