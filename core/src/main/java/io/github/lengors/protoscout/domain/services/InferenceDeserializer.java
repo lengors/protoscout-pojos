@@ -1,9 +1,8 @@
 package io.github.lengors.protoscout.domain.services;
 
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.TreeNode;
 import com.fasterxml.jackson.databind.DeserializationContext;
-import com.fasterxml.jackson.databind.JavaType;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.deser.BeanDeserializerFactory;
 import com.fasterxml.jackson.databind.deser.ResolvableDeserializer;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
@@ -28,23 +27,6 @@ public abstract class InferenceDeserializer<T> extends StdDeserializer<T> {
     super(valueClass);
   }
 
-  /**
-   * Constructor setting value type.
-   *
-   * @param valueType Value type.
-   */
-  protected InferenceDeserializer(final JavaType valueType) {
-    super(valueType);
-  }
-
-  /**
-   * Constructor from another deserializer.
-   *
-   * @param source Source deserializer.
-   */
-  protected InferenceDeserializer(final StdDeserializer<?> source) {
-    super(source);
-  }
 
   /**
    * Deserializes node into the target type.
@@ -59,11 +41,9 @@ public abstract class InferenceDeserializer<T> extends StdDeserializer<T> {
   @SuppressWarnings("unchecked")
   public T deserialize(final JsonParser parser, final DeserializationContext context) throws IOException {
     final var codec = parser.getCodec();
-    final var node = codec.readTree(parser);
+    final var node = codec.<JsonNode>readTree(parser);
 
     final var properTypeValue = inferType(node);
-
-    // TODO optimize
     final var type = TypeFactory
         .defaultInstance()
         .constructType(properTypeValue);
@@ -88,5 +68,5 @@ public abstract class InferenceDeserializer<T> extends StdDeserializer<T> {
    * @param node The node to determine the concrete class for.
    * @return The concrete class.
    */
-  protected abstract Class<? extends T> inferType(TreeNode node);
+  protected abstract Class<? extends T> inferType(JsonNode node);
 }
