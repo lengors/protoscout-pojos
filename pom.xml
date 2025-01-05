@@ -51,7 +51,7 @@
       <artifactId>checker-qual</artifactId>
       <version>${maven.checkerframework.version}</version>
     </dependency>
-    </dependencies>
+  </dependencies>
 
   <build>
     <plugins>
