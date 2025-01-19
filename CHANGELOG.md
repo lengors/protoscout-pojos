@@ -1,3 +1,18 @@
+# [v1.0.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.0...v1.0.1) (2025-01-05)
+
+## 🐛 Bug Fixes
+- [`ac8e206`](https://github.com/lengors/protoscout-pojos/commit/ac8e206)  Proper deserializers for polymorphic types with shared properties
+
+# [v1.0.1-beta.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.0...v1.0.1-beta.1) (2025-01-05)
+
+## 🐛 Bug Fixes
+- [`ac8e206`](https://github.com/lengors/protoscout-pojos/commit/ac8e206)  Proper deserializers for polymorphic types with shared properties
+
+# [v1.0.1-alpha.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.0...v1.0.1-alpha.1) (2025-01-05)
+
+## 🐛 Bug Fixes
+- [`ac8e206`](https://github.com/lengors/protoscout-pojos/commit/ac8e206)  Proper deserializers for polymorphic types with shared properties
+
 # [v1.0.1-dev.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.0...v1.0.1-dev.1) (2025-01-05)
 
 ## 🐛 Bug Fixes
