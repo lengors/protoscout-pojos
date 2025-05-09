@@ -1,3 +1,13 @@
+# [v1.0.2](https://github.com/lengors/protoscout-pojos/compare/v1.0.1...v1.0.2) (2025-01-19)
+
+## 🐛 Bug Fixes
+- [`c29e7e6`](https://github.com/lengors/protoscout-pojos/commit/c29e7e6)  POJOs correctly generated with new js2pets version for nullability annotations
+
+# [v1.0.2-beta.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.1...v1.0.2-beta.1) (2025-01-19)
+
+## 🐛 Bug Fixes
+- [`c29e7e6`](https://github.com/lengors/protoscout-pojos/commit/c29e7e6)  POJOs correctly generated with new js2pets version for nullability annotations
+
 # [v1.0.2-alpha.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.1...v1.0.2-alpha.1) (2025-01-19)
 
 ## 🐛 Bug Fixes
