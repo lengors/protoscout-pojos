@@ -19,7 +19,7 @@
 
   <properties>
     <!-- Version -->
-    <revision>1.0.3</revision>
+    <revision>1.0.4-alpha.1</revision>
 
     <!-- Project general settings -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -43,6 +43,7 @@
     <sonar.organization>lengors-github</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.projectBaseDir>core</sonar.projectBaseDir>
+    <sonar.projectName>protoscout</sonar.projectName>
   </properties>
 
   <dependencies>
