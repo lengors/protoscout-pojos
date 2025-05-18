@@ -1,3 +1,8 @@
+# [v1.0.4-alpha.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.3...v1.0.4-alpha.1) (2025-05-18)
+
+## 🐛 Bug Fixes
+- [`9c410fc`](https://github.com/lengors/protoscout-pojos/commit/9c410fc) ⬆️ Bump schemas reference
+
 # [v1.0.4-dev.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.3...v1.0.4-dev.1) (2025-05-18)
 
 ## 🐛 Bug Fixes
