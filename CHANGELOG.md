@@ -1,3 +1,18 @@
+# [v1.0.3](https://github.com/lengors/protoscout-pojos/compare/v1.0.2...v1.0.3) (2025-05-10)
+
+## 🐛 Bug Fixes
+- [`98bdf3c`](https://github.com/lengors/protoscout-pojos/commit/98bdf3c)  Bump schemas to allow for proper validation in IDEs
+
+# [v1.0.3-beta.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.2...v1.0.3-beta.1) (2025-05-10)
+
+## 🐛 Bug Fixes
+- [`98bdf3c`](https://github.com/lengors/protoscout-pojos/commit/98bdf3c)  Bump schemas to allow for proper validation in IDEs
+
+# [v1.0.3-alpha.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.2...v1.0.3-alpha.1) (2025-05-10)
+
+## 🐛 Bug Fixes
+- [`98bdf3c`](https://github.com/lengors/protoscout-pojos/commit/98bdf3c)  Bump schemas to allow for proper validation in IDEs
+
 # [v1.0.3-dev.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.2...v1.0.3-dev.1) (2025-05-10)
 
 ## 🐛 Bug Fixes
