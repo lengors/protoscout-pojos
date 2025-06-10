@@ -19,7 +19,7 @@
 
   <properties>
     <!-- Version -->
-    <revision>1.0.5-beta.1</revision>
+    <revision>1.0.5</revision>
 
     <!-- Project general settings -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
