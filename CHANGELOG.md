@@ -1,3 +1,20 @@
+# [v1.0.6-dev.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.5...v1.0.6-dev.1) (2025-12-17)
+
+## 🐛 Bug Fixes
+- [`a1171c1`](https://github.com/lengors/protoscout-pojos/commit/a1171c1)  Fix scraper response result property by bumping schemas
+
+# [v1.0.5](https://github.com/lengors/protoscout-pojos/compare/v1.0.4...v1.0.5) (2025-06-10)
+
+## 🐛 Bug Fixes
+- [`55dec8a`](https://github.com/lengors/protoscout-pojos/commit/55dec8a) ⬆️ Bump schemas reference 
+- [`7b7e3d1`](https://github.com/lengors/protoscout-pojos/commit/7b7e3d1)  Bump schemas reference
+
+# [v1.0.5-beta.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.4...v1.0.5-beta.1) (2025-06-10)
+
+## 🐛 Bug Fixes
+- [`55dec8a`](https://github.com/lengors/protoscout-pojos/commit/55dec8a) ⬆️ Bump schemas reference 
+- [`7b7e3d1`](https://github.com/lengors/protoscout-pojos/commit/7b7e3d1)  Bump schemas reference
+
 # [v1.0.5-alpha.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.4...v1.0.5-alpha.1) (2025-06-09)
 
 ## 🐛 Bug Fixes
