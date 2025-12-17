@@ -1,3 +1,8 @@
+# [v1.0.6-beta.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.5...v1.0.6-beta.1) (2025-12-17)
+
+## 🐛 Bug Fixes
+- [`a1171c1`](https://github.com/lengors/protoscout-pojos/commit/a1171c1)  Fix scraper response result property by bumping schemas
+
 # [v1.0.6-alpha.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.5...v1.0.6-alpha.1) (2025-12-17)
 
 ## 🐛 Bug Fixes
