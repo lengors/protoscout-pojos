@@ -1,3 +1,8 @@
+# [v1.0.9-dev.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.8...v1.0.9-dev.1) (2026-01-25)
+
+## 🐛 Bug Fixes
+- [`61579b2`](https://github.com/lengors/protoscout-pojos/commit/61579b2)  Bump schemas version
+
 # [v1.0.8](https://github.com/lengors/protoscout-pojos/compare/v1.0.7...v1.0.8) (2026-01-25)
 
 ## 🐛 Bug Fixes
