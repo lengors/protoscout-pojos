@@ -1,0 +1,13 @@
+{
+  "flattens": [
+    {
+      "jexl": "test"
+    }
+  ],
+  "extracts": [
+    {
+      "name": "test",
+      "image": "test"
+    }
+  ]
+}

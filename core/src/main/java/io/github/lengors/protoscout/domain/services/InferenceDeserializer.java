@@ -2,6 +2,8 @@ package io.github.lengors.protoscout.domain.services;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
+import com.fasterxml.jackson.databind.JavaType;
+import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.deser.BeanDeserializerFactory;
 import com.fasterxml.jackson.databind.deser.ResolvableDeserializer;
@@ -27,7 +29,6 @@ public abstract class InferenceDeserializer<T> extends StdDeserializer<T> {
     super(valueClass);
   }
 
-
   /**
    * Deserializes node into the target type.
    *
@@ -47,9 +48,7 @@ public abstract class InferenceDeserializer<T> extends StdDeserializer<T> {
     final var type = TypeFactory
         .defaultInstance()
         .constructType(properTypeValue);
-    final var config = context.getConfig();
-    final var deserializer = BeanDeserializerFactory.instance.buildBeanDeserializer(context, type,
-        config.introspect(type));
+    final var deserializer = getDeserializer(context, type);
     if (deserializer instanceof ResolvableDeserializer resolvableDeserializer) {
       resolvableDeserializer.resolve(context);
     }
@@ -69,4 +68,16 @@ public abstract class InferenceDeserializer<T> extends StdDeserializer<T> {
    * @return The concrete class.
    */
   protected abstract Class<? extends T> inferType(JsonNode node);
+
+  @SuppressWarnings("nullness")
+  private static JsonDeserializer<Object> getDeserializer(
+      final DeserializationContext context,
+      final JavaType type) throws IOException {
+    if (type.isAbstract() || type.isInterface()) {
+      return context.findContextualValueDeserializer(type, null);
+    }
+
+    final var config = context.getConfig();
+    return BeanDeserializerFactory.instance.buildBeanDeserializer(context, type, config.introspect(type));
+  }
 }
