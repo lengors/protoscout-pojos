@@ -1,3 +1,18 @@
+# [v1.0.8-beta.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.7...v1.0.8-beta.1) (2026-01-25)
+
+## 🐛 Bug Fixes
+- [`a25753f`](https://github.com/lengors/protoscout-pojos/commit/a25753f)  Bump schemas version
+
+# [v1.0.8-alpha.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.7...v1.0.8-alpha.1) (2026-01-25)
+
+## 🐛 Bug Fixes
+- [`a25753f`](https://github.com/lengors/protoscout-pojos/commit/a25753f)  Bump schemas version
+
+# [v1.0.8-dev.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.7...v1.0.8-dev.1) (2026-01-25)
+
+## 🐛 Bug Fixes
+- [`a25753f`](https://github.com/lengors/protoscout-pojos/commit/a25753f)  Bump schemas version
+
 # [v1.0.7](https://github.com/lengors/protoscout-pojos/compare/v1.0.6...v1.0.7) (2025-12-28)
 
 ## 🐛 Bug Fixes
