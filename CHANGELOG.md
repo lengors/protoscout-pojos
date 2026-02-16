@@ -1,3 +1,18 @@
+# [v1.0.11-dev.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.10...v1.0.11-dev.1) (2026-02-16)
+
+## 🐛 Bug Fixes
+- [`1f70704`](https://github.com/lengors/protoscout-pojos/commit/1f70704)  Bump schemas reference
+
+# [v1.0.10](https://github.com/lengors/protoscout-pojos/compare/v1.0.9...v1.0.10) (2026-01-25)
+
+## 🐛 Bug Fixes
+- [`fa8fcc7`](https://github.com/lengors/protoscout-pojos/commit/fa8fcc7)  Fixed deserialization of specification details
+
+# [v1.0.10-beta.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.9...v1.0.10-beta.1) (2026-01-25)
+
+## 🐛 Bug Fixes
+- [`fa8fcc7`](https://github.com/lengors/protoscout-pojos/commit/fa8fcc7)  Fixed deserialization of specification details
+
 # [v1.0.10-alpha.1](https://github.com/lengors/protoscout-pojos/compare/v1.0.9...v1.0.10-alpha.1) (2026-01-25)
 
 ## 🐛 Bug Fixes
