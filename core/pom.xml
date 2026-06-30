@@ -49,7 +49,7 @@
     <maven.checkstyle.version>3.4.0</maven.checkstyle.version>
     <maven.compiler.version>3.13.0</maven.compiler.version>
     <maven.mockito.version>5.12.0</maven.mockito.version>
-    <maven.jackson.version>2.18.1</maven.jackson.version>
+    <maven.jackson.version>2.22.0</maven.jackson.version>
     <maven.javadoc.version>3.8.0</maven.javadoc.version>
     <maven.jacoco.version>0.8.12</maven.jacoco.version>
     <maven.source.version>3.3.1</maven.source.version>
